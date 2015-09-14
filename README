@@ -1,0 +1,13 @@
+README for the arctica-keyring package
+=======================================
+
+The Debian project wants developers to digitally sign the
+announcements of their packages, to protect against forgeries.
+
+This package provides gpg keys for Arctica package repository.
+
+For further information on keyrings refer to the Debian package
+,,debian-keyring''.
+
+light+love,
+Mike Gabriel <mike.gabriel@das-netzwerkteam.de>, ArcticaProject, 2015-09-14

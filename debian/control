@@ -1,0 +1,26 @@
+Source: arctica-keyring
+Section: misc
+Priority: optional
+Maintainer: Debian Arctica Maintainers <dev@lists.arctica-project.org>
+Uploaders:
+ Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Build-Depends:
+ cdbs,
+ debhelper (>= 9),
+Standards-Version: 3.9.6
+Homepage: https://github.com/ArcticaProject/arctica-keyring
+Vcs-Git: https://github.com/ArcticaProject/arctica-keyring
+Vcs-Browser: https://github.com/ArcticaProject/arctica-keyring
+
+Package: arctica-keyring
+Architecture: all
+Depends:
+ ${misc:Depends},
+Recommends: gnupg (>= 1.0.6-4)
+Description: GnuPG keys of all ArcticaProject developers and archives
+ The Debian project requires developers to digitally sign the
+ announcements of their packages with GnuPG, to protect against
+ forgeries.
+ .
+ This package contains public GnuPG keys of all ArcticaProject developers
+ and the ArcticaProject package archive.

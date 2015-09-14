@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/class/makefile.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+export PREFIX=/usr
+export DESTDIR=debian/tmp
+
+DEB_BUILD_PARALLEL = 1
+DEB_INSTALL_DOCS_ALL = README
+
+DEB_MAKE_CHECK_TARGET=test
+DEB_MAKE_INSTALL_TARGET=install
+
+common-install-indep:: remove-cruft
+common-install-arch:: remove-cruft
+
+remove-cruft::
+#	Nothing to do here, right now...
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
