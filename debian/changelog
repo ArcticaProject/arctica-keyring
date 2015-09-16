@@ -1,8 +1,8 @@
-arctica-keyring (2015.09.16.1) UNRELEASED; urgency=medium
+arctica-keyring (2015.09.16.1) unstable; urgency=medium
 
-  * Continue development...
+  * debian/control: Add B-D: gawk.
 
- -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Wed, 16 Sep 2015 05:33:28 +0200
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Wed, 16 Sep 2015 05:37:52 +0200
 
 arctica-keyring (2015.09.14.1) unstable; urgency=medium
 
