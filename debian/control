@@ -7,6 +7,7 @@ Uploaders:
 Build-Depends:
  cdbs,
  debhelper (>= 9),
+ gawk,
 Standards-Version: 3.9.6
 Homepage: https://github.com/ArcticaProject/arctica-keyring
 Vcs-Git: https://github.com/ArcticaProject/arctica-keyring
