@@ -1,8 +1,8 @@
-arctica-keyring (2015.09.21.1) UNRELEASED; urgency=medium
+arctica-keyring (2017.09.03.1) unstable; urgency=medium
 
-  * Continue development...
+  * Update archive key (new expiry date: 2019-08-25).
 
- -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Mon, 21 Sep 2015 19:52:07 +0200
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Mon, 04 Sep 2017 11:55:48 +0200
 
 arctica-keyring (2015.09.16.1) unstable; urgency=medium
 
