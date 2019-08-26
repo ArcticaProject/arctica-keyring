@@ -1,3 +1,9 @@
+arctica-keyring (2019.08.26.1) unstable; urgency=medium
+
+  * Update public archive key (no expiry, from now on).
+
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Mon, 26 Aug 2019 15:39:39 +0200
+
 arctica-keyring (2017.09.03.1) unstable; urgency=medium
 
   * Update archive key (new expiry date: 2019-08-25).
